@@ -4,7 +4,7 @@
   "world": { "frame": "NED", "unit": "meter", "origin": [0.0, 0.0, 0.0] },
   "mission": {
     "task_type": "area_coverage",
-    "N": 3,
+    "N": 1,
     "vehicle_names": ["Drone1", "Drone2", "Drone3"],
     "altitude_z": -5.0,
     "speed_mps": 3.0,
