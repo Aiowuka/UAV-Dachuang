@@ -1,0 +1,17 @@
+{
+  "batch_id": "20260203_scene_03_single_hole_BATCH_s0_k5",
+  "scene_id": "scene_03_single_hole",
+  "base_seed": 0,
+  "k": 5,
+  "seed_strategy": "offset",
+  "seed_offset": 1000,
+  "seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004
+  ],
+  "generated_at": "2026-02-03T22:22:52",
+  "source_scene_file": "C:\\Users\\4everme\\Desktop\\final3.json"
+}
