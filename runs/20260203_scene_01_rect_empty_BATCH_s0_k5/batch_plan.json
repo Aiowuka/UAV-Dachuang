@@ -1,5 +1,5 @@
 {
-  "batch_id": "20260127_scene_01_rect_empty_BATCH_s0_k5",
+  "batch_id": "20260203_scene_01_rect_empty_BATCH_s0_k5",
   "scene_id": "scene_01_rect_empty",
   "base_seed": 0,
   "k": 5,
@@ -12,6 +12,6 @@
     1003,
     1004
   ],
-  "generated_at": "2026-01-27T19:57:39",
-  "source_scene_file": "F:\\大创\\UAV-Dachuang\\scenes\\scene_01.json"
+  "generated_at": "2026-02-03T22:00:19",
+  "source_scene_file": "F:\\大创\\UAV-Dachuang\\scenes\\final1.json"
 }
