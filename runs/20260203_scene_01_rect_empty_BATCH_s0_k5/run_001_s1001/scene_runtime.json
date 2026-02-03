@@ -1,12 +1,12 @@
 {
   "common": {
-    "run_id": "20260127_scene_01_rect_empty_s1001_r001",
+    "run_id": "20260203_scene_01_rect_empty_s1001_r001",
     "scene_id": "scene_01_rect_empty",
     "seed": 1001,
     "N": 1,
     "algo_id": "baseline_partition_lawnmower_v1",
-    "generated_at": "2026-01-27T19:57:39",
-    "source_scene_file": "F:\\大创\\UAV-Dachuang\\scenes\\scene_01.json",
+    "generated_at": "2026-02-03T22:00:19",
+    "source_scene_file": "F:\\大创\\UAV-Dachuang\\scenes\\final1.json",
     "time_base": "sim",
     "sim_time_source": "airsim_state_timestamp_ns",
     "world": {
@@ -669,16 +669,16 @@
           0
         ],
         [
-          60,
+          -138.05,
           0
         ],
         [
-          60,
-          40
+          -138.05,
+          200.15
         ],
         [
           0,
-          40
+          200.15
         ]
       ],
       "holes": [],
@@ -691,24 +691,6 @@
         "xyz": [
           2,
           2,
-          0
-        ],
-        "yaw_deg": 0
-      },
-      {
-        "vehicle_name": "Drone2",
-        "xyz": [
-          2,
-          6,
-          0
-        ],
-        "yaw_deg": 0
-      },
-      {
-        "vehicle_name": "Drone3",
-        "xyz": [
-          2,
-          10,
           0
         ],
         "yaw_deg": 0
@@ -725,18 +707,6 @@
           "dx": -0.2691460352431252,
           "dy": -0.259260457156389,
           "dyaw_deg": 0.0
-        },
-        {
-          "vehicle_name": "Drone2",
-          "dx": 0.34230456894559314,
-          "dy": -0.3881000029151005,
-          "dyaw_deg": 0.0
-        },
-        {
-          "vehicle_name": "Drone3",
-          "dx": 0.3119224797441045,
-          "dy": -0.21518474235847895,
-          "dyaw_deg": 0.0
         }
       ]
     },
@@ -749,28 +719,10 @@
           0
         ],
         "yaw_deg": 0.0
-      },
-      {
-        "vehicle_name": "Drone2",
-        "xyz": [
-          2.3423045689455932,
-          5.611899997084899,
-          0
-        ],
-        "yaw_deg": 0.0
-      },
-      {
-        "vehicle_name": "Drone3",
-        "xyz": [
-          2.3119224797441045,
-          9.78481525764152,
-          0
-        ],
-        "yaw_deg": 0.0
       }
     ],
     "motion": {
-      "altitude_z": -5.0,
+      "altitude_z": -100.0,
       "speed_mps": 3.0,
       "time_limit_sec": 600
     },
@@ -780,9 +732,7 @@
   },
   "executor": {
     "vehicle_names": [
-      "Drone1",
-      "Drone2",
-      "Drone3"
+      "Drone1"
     ],
     "takeoff": {
       "enabled": true,
@@ -834,16 +784,16 @@
           0
         ],
         [
-          60,
+          -138.05,
           0
         ],
         [
-          60,
-          40
+          -138.05,
+          200.15
         ],
         [
           0,
-          40
+          200.15
         ]
       ],
       "holes": [],
@@ -866,12 +816,12 @@
       "task_type": "area_coverage",
       "N": 1,
       "vehicle_names": [
-        "Drone1",
-        "Drone2",
-        "Drone3"
+        "Drone1"
       ],
-      "altitude_z": -5.0,
+      "altitude_z": -100.0,
       "speed_mps": 3.0,
+      "speed_limit_mps": 5.0,
+      "speed_limit_enforced": true,
       "time_limit_sec": 600,
       "takeoff": {
         "enabled": true,
@@ -888,16 +838,16 @@
           0
         ],
         [
-          60,
+          -138.05,
           0
         ],
         [
-          60,
-          40
+          -138.05,
+          200.15
         ],
         [
           0,
-          40
+          200.15
         ]
       ],
       "holes": [],
@@ -910,24 +860,6 @@
         "xyz": [
           2,
           2,
-          0
-        ],
-        "yaw_deg": 0
-      },
-      {
-        "vehicle_name": "Drone2",
-        "xyz": [
-          2,
-          6,
-          0
-        ],
-        "yaw_deg": 0
-      },
-      {
-        "vehicle_name": "Drone3",
-        "xyz": [
-          2,
-          10,
           0
         ],
         "yaw_deg": 0
